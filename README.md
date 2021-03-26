@@ -1,6 +1,7 @@
 <div align="center">
-<img height=150px src="https://pbs.twimg.com/media/ExWCgNAWEAQjOql?format=jpg&name=4096x4096" />
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/xgv2P4D/polito-logo-new.png" alt="polito-logo-new" border="0"></a>
 </div>
+
 
 # Web Applications I 2020/21 - LAB #3
 

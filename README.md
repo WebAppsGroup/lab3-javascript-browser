@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/xgv2P4D/polito-logo-new.png" alt="polito-logo-new" border="0"></a>
+<a href="https://imgbb.com/"><img height="300px" src="https://i.ibb.co/xgv2P4D/polito-logo-new.png" alt="polito-logo-new"></a>
 </div>
 
 

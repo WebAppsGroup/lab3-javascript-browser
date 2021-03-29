@@ -66,11 +66,24 @@ function filterAndPrint(taskList){
 function changeBlue(event) {
   imp.classList.toggle('bg-primary');
 }
+///////////////////////////////////////////////////////////////////////////////////////
+function showelement1(event) {
+  imptask.classList.toggle('collapse');
 
-function showelement(event) {
-  all.classList.toggle('collapse');
+}
+function showelement2(event) {
+
+  document.getElementById('check-t2').classList.toggle('collapse');
+}
+function showelement3(event) {
+
+  document.getElementById('check-t3').classList.toggle('collapse');
 }
 
+function showelement4(event) {
+
+  document.getElementById('check-t4').classList.toggle('collapse');
+}
 
 function main(data) {
   // create some dummy tasks
@@ -92,12 +105,6 @@ document.querySelector('main').getElementsByTagName('ul')[0].innerHTML +='<li cl
 +'<label class="custom-control-label" for="check-t'+(i+4)+'">'+taskList.list[i].description+'</label>'+'</div>'+'<small>'+taskList.list[i].deadline+'</small>'+'</div>'+'</li>' ;
 }
 
-  
-//document.getElementById('imp').addEventListener('click', changeBlue) ;
-
-//document.getElementById('all').addEventListener('click', showelement) ;
-
-
   //sort by deadline and print the taskList
   //sortAndPrint(taskList);
 
@@ -109,5 +116,12 @@ document.querySelector('main').getElementsByTagName('ul')[0].innerHTML +='<li cl
 
 main()
 
+const imptask = document.getElementsByClassName('important')[0];
+//const imptask = document.getElementById('main ul') ;
+//document.getElementById('imp').addEventListener('click', changeBlue) ;
+document.getElementById('imp').addEventListener('click', showelement1) ;
+document.getElementById('tod').addEventListener('click', showelement2) ;
+document.getElementById('next').addEventListener('click', showelement3) ;
+document.getElementById('pri').addEventListener('click', showelement4) ;
 
 

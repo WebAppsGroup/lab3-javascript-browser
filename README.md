@@ -7,6 +7,7 @@
 <p align="center">
  <img alt="HTML" src="https://img.shields.io/badge/languages-Javascript, HTML, CSS-orange"/>
  <img alt="Framework" src="https://img.shields.io/badge/Bootstrap-v4.6-blue"/>
+<img alt="Framework" src="https://img.shields.io/badge/dayjs-v1.8.21-blue"/>
 </p>
 
 This is the transcription of the [original pdf text](https://github.com/polito-WA1-AW1-2021/course-materials/blob/main/labs/L03-javascript-browser.pdf)

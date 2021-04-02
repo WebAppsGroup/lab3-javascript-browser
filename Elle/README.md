@@ -6,7 +6,7 @@ Improved version of ToDo Manager, implemented starting from Lab1 and Lab2 in van
 |:-:|:-:|
 |[VS Code](https://code.visualstudio.com/) | Latest |
 |[Day.js](https://day.js.org/en/) | 1.8.21 |
-|[Bootstrap]([https://boot](https://getbootstrap.com/)) |  4.6 |
+|[Bootstrap](https://getbootstrap.com/) |  4.6 |
 
 ## Usage
 ```bash
